@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <p>
+      <button
+        onclick="
+        let ranNum = Math.floor(Math.random()*3);
+        if(ranNum === 0){
+          alert('U picked rock, Computer picked rock. Tie!');
+        }else if(ranNum === 1){
+          alert('U picked rock, Computer picked paper. U lose!');
+        }else{
+          alert('U picked rock, Computer picked scissors. U win!');
+        };"
+      >
+        Rock
+      </button>
+
+      <button
+        onclick="
+        ranNum = Math.floor(Math.random()*3);
+        if(ranNum === 0){
+          alert('U picked paper, Computer picked rock. U win!');
+        }else if(ranNum === 1){
+          alert('U picked paper, Computer picked paper. Tie!');
+        }else{
+          alert('U picked paper, Computer picked scissors. U lose!');
+        };"
+      >
+        Paper
+      </button>
+
+      <button
+        onclick="
+        ranNum = Math.floor(Math.random()*3);
+        if(ranNum === 0){
+          alert('U picked scissors, Computer picked rock. U lose!');
+        }else if(ranNum === 1){
+          alert('U picked scissors, Computer picked paper. U win!');
+        }else{
+          alert('U picked scissors, Computer picked scissors. Tie!');
+      };"
+      >
+        Scissors
+      </button>
+    </p>
+    <script></script>
+  </body>
+</html>
