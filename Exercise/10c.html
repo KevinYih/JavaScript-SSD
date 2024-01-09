@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>classList contains</title>
+  </head>
+  <body>
+    <button class="js-button test-button" onclick="checkClass()">Test</button>
+    <script>
+      const testButton = document.querySelector(".test-button");
+
+      function checkClass() {
+        if (testButton.classList.contains("js-button")) {
+          console.log("It has the class 'js-button'.");
+        } else {
+          console.log("It has the class 'js-button'.");
+        }
+      }
+    </script>
+  </body>
+</html>

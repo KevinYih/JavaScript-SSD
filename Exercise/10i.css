@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+button {
+  color: white;
+  background-color: rgb(51, 51, 51);
+
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+.clear-button {
+  font-size: 8px;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.display-text {
+  color: white;
+}
+
+.paragragh {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
