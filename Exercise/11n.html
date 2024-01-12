@@ -7,7 +7,9 @@
   </head>
   <body>
     <script>
-      function countWords(words) {
+      // function countWords(words)
+
+      let countWords = function (words) {
         const result = {};
 
         for (let i = 0; i < words.length; i++) {
@@ -18,7 +20,7 @@
           }
         }
         return result;
-      }
+      };
 
       console.log(countWords(["apple", "pear", "grape", "apple", "apple"]));
 
