@@ -82,7 +82,7 @@ function autoScoreElement() {
 
     isAutoPlaying = false;
   } else {
-    intervalId = setInterval(function () {
+    intervalId = setInterval(() => {
       playGame(pickComputerMove());
       document.querySelector(
         ".js-score"

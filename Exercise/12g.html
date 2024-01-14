@@ -12,7 +12,7 @@
     <script>
       let messages = 2;
 
-      setInterval(function () {
+      setInterval(() => {
         if (document.title === "App" && messages > 0) {
           document.title = `(${messages}) New messages`;
         } else {
